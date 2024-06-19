@@ -153,3 +153,24 @@ body{
     margin-top: 30px;
     cursor: pointer;
 }
+.svaz{
+    background-color:#475241;
+}
+.svaz .container h1{
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #ffffff;
+}
+.svaz .container .group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.svaz .container .group img{
+    margin-right: 40px;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
