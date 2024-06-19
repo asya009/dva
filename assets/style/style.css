@@ -122,3 +122,34 @@ body{
 .skill .container .raz .dva p{
     font-size: 16px;
 }
+.projecr{
+    background-color: #F1F0F0;
+}
+.projecr .container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.projecr .container h1{
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.projecr .container .group{
+    display: flex;
+    flex-direction: row;
+}
+.projecr .container .group .textik {
+    font-size: 20px;
+    width: 45%;
+    margin-top: 120px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.projecr .container .group .textik .button-auth{
+    background-color:#475241;
+    color: rgb(250, 255, 245);
+    padding: 19px 64px 19px 64px;
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+}
