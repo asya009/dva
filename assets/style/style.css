@@ -262,3 +262,235 @@ body{
     font-weight: bold;
     margin-right: 45px;
 }
+
+
+@media (max-width: 1200px) {
+    .container{
+        width: 950px;
+    }
+    .about .container img{
+        margin-right: 90px;
+        width: 70%;
+    }
+    .about .container .textik p{
+        font-size: 13px;
+    }
+    .about .container .textik h1{
+        font-size: 40px;
+    }
+    .skill .container h1{
+        font-size: 40px;
+    }
+    .skill .container .raz .odin p{
+        font-size: 13px;
+    }
+    .skill .container .dva{
+        font-size: 13px;
+    }
+    .projecr .container h1{
+        font-size: 40px
+    }
+    .projecr .container .group .photochka img{
+        width: 420px;
+        height: 350px;
+    }
+    .projecr .container .group .textik{
+        font-size: 13px;
+    }
+    .projecr .container .group .textik .button-auth{
+        padding: 14px 34px 14px 34px;
+        font-size: 13px;
+    }
+    .svaz .container h1{
+        font-size: 40px;
+    }
+    .karera .container h1{
+        font-size: 40px;
+    }
+    .karera .container .group .textik{
+        font-size: 13px;
+    }
+    .footer .container h1{
+        font-size: 40px;
+    }
+    .footer .container .group .pole p{
+        font-size: 13px;
+    }
+    .footer .container .group .button-auth{
+        padding: 14px 34px 14px 34px;
+        font-size: 13px;
+    }
+    .down_footer .container .group1 p{
+        font-size: 13px;
+    }
+    .down_footer .container .group2{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 720px;
+    }
+    .navigation .container .link a{
+        font-size: 9px;
+        width: 60%;
+    }
+    .navigation .container .link2 a{
+        font-size: 9px;
+    }
+    .about .container img{
+        width: 60%;
+    }
+    .about .container .textik p{
+        font-size: 9px;
+    }
+    .about .container .textik h1{
+        font-size: 30px!important;
+    }
+    .skill .container .raz .odin p{
+        font-size: 10px;
+    }
+    .skill .container .dva{
+        font-size: 10px;
+    }
+    .projecr .container .group .photochka img{
+        width: 320px;
+        height: 250px;
+    }
+    .projecr .container .group .textik{
+        margin-top: -15px;
+    }
+    .projecr .container h1{
+        font-size: 30px;
+    }
+    .svaz .container h1{
+        font-size: 30px;
+    }
+    .svaz .container .group img{
+        width: 50px;
+        height: 50px;
+    }
+    .karera .container h1{
+        font-size: 30px;
+    }
+    .karera .container .group .textik{
+        font-size: 10px;
+        width: 60%;
+    }
+    .karera .container .group .photochka img {
+        width: 274px;
+        height: 361px;
+    }
+    .footer .container h1{
+        font-size: 30px;
+    }
+    .footer .container .group .photochka img{
+        width: 200px;
+        height: 300px;
+        margin-top: 3px;
+    }
+    .footer .container .group .pole{
+        width: 60%;
+    }
+    .footer .container .group .button-auth {
+        padding: 10px 44px 10px 44px;
+        font-size: 13px;
+    }
+    .footer .container .group .pole .input-auth{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        width:  540px;
+    }
+    .footer .container .group .photochka img{
+        margin-right: 5px;
+    }
+}
+@media (max-width: 576px) {
+    .container{
+        width:  98%;
+    }
+}
+
+
+
+
+
+@media (max-width: 480px) {
+    .container{
+        width:  98%;
+    }
+    .about .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .about .container img {
+        width: 80%;
+    }
+    .about .container .textik{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        font-size: 25px;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+    .projecr .container .group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .projecr .container .group .textik{
+        margin-top: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .projecr .container .group .textik .button-auth {
+        padding: 10px 14px 10px 14px;
+        font-size: 13px;
+        width: 80%;
+        margin-left: 30px;
+    }
+    .karera .container .group {
+        display: flex;
+        flex-direction: column;
+    }
+    .karera .container .group .textik {
+        font-size: 15px;
+        width: 90%;
+    }
+    .about .container .textik p{
+        font-size: 14px;
+    }
+    .karera .container .group .photochka img{
+        margin-left: 40px;
+    }
+    .footer .container .group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .container .group .button-auth {
+        padding: 10px 44px 10px 44px;
+        font-size: 13px;
+        margin-left: 15px;
+    }
+    .footer .container .group .photochka img {
+        display: none;
+    }
+    .footer .container h1{
+        text-align: center;
+    }
+    .about .container .textik p{
+        width: 90%;
+    }
