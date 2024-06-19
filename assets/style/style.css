@@ -174,3 +174,26 @@ body{
     width: 60px;
     cursor: pointer;
 }
+.karera .container .group{
+    display: flex;
+    flex-direction: row;
+}
+.karera .container h1{
+    font-size: 60px;
+    padding-top: 50px;
+}
+.karera .container .group .textik{
+    width: 40%;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+.karera .container .group .photochka{
+    margin-left: 10%;
+    margin-top: -10px;
+}
+.karera .container .group .photochka img{
+    width: 374px;
+    height: 461px;
+}
