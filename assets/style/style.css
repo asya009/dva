@@ -71,3 +71,54 @@ body{
     margin-top: 70px;
     margin-left: 60px;
 }
+.skill{
+    background-color: #475241;
+}
+.skill .container .raz{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 30px;
+    width: 80%;
+}
+.skill .container h1{
+    color: #fff;
+    padding-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 30%;
+    font-size: 60px;
+}
+.skill .container .raz .odin{
+   background-color: #fff;
+   width: 30%;
+   margin-left: 30px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-right: 15px;
+   padding-left: 15px;
+}
+.skill .container .raz .odin p{
+    font-size: 16px;
+}
+.skill .container .dva{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.skill .container .dva .odin{
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+ }
+.skill .container .raz .dva p{
+    font-size: 16px;
+}
