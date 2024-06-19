@@ -47,3 +47,27 @@ body{
     color: #475241;
     font-size: 12px;
 }
+
+.about .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.about .container .textik{
+    width: 50%;
+    margin-top: 70px;
+    margin-right: 60px;
+}
+.about .container .textik p{
+    font-size: 16px;
+}
+.about .container .textik h1{
+    margin-bottom: 24px;
+    font-size: 70px;
+}
+
+.about .container img{
+    margin-top: 70px;
+    margin-left: 60px;
+}
