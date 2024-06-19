@@ -237,3 +237,28 @@ body{
     margin-left: 60px;
     margin-bottom: 80px;
 }
+.down_footer{
+    background-color:#475241;
+}
+.down_footer .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.down_footer .container .group1 p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.down_footer .container .group2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-right: 45px;
+}
